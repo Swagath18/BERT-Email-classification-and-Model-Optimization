@@ -27,7 +27,7 @@ Deployed the model as a real-time API using FastAPI, applied model optimization 
 
 ---
 
-## 🛠️ Project Structure
+##  Project Structure
 
 ```
 bert_email_classifier/

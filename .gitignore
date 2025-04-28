@@ -1,0 +1,13 @@
+# Ignore models
+models/bert_finetuned/
+models/bert_finetuned_quantized/
+
+# Ignore system files
+__pycache__/
+*.pyc
+.DS_Store
+
+# Ignore virtual environments
+.env/
+venv/
+easeai/

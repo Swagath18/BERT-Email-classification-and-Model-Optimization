@@ -91,36 +91,34 @@ bert_email_classifier/
     F1-Score	0.91
     (Evaluated on 20% test split.)
 ```
-## Model Optimization Results
-
-## 🧠 Model Optimization Results
+##  Model Optimization Results
 ```
+    | Model          | Size (MB) | Size Reduction | Accuracy Impact |
+    |:---------------|-----------|----------------|-----------------|
+    | Original BERT  | 1671.08   |        —       |       0%        |
+    | Quantized BERT | 173.34    | 89.63% smaller |      ~0%        |
 
-| Model | Size (MB) | Size Reduction | Accuracy Impact |
-|:------|:----------|:----------------|:----------------|
-| Original BERT | 1671.08 | — | 0% |
-| Quantized BERT | 173.34 | 89.63% smaller | ~0% |
 ```
 -Reduced model size by ~90%  
 -Achieved faster inference with negligible accuracy loss.
 
 ## Real-World Production Readiness Improvements
-Preprocessing Layer: Stripped email greetings, signatures, and irrelevant noise to improve model robustness.
-Confidence Scoring: Outputs confidence along with predictions.
-Quantized Inference: Optimized for CPU deployment with smaller memory footprint.
+- Preprocessing Layer: Stripped email greetings, signatures, and irrelevant noise to improve model robustness.
+- Confidence Scoring: Outputs confidence along with predictions.
+- Quantized Inference: Optimized for CPU deployment with smaller memory footprint.
 
 ## Future Work
-Expand to real-world email datasets with larger variability.
-Fine-tune lightweight models like DistilBERT or MiniLM for even faster APIs.
-Add batch email classification endpoint.
-Deploy public demo using HuggingFace Spaces or Render.
-Add Gradio UI for user-friendly frontend interaction.
+- Expand to real-world email datasets with larger variability.
+- Fine-tune lightweight models like DistilBERT or MiniLM for even faster APIs.
+- Add batch email classification endpoint.
+- Deploy public demo using HuggingFace Spaces or Render.
+- Add Gradio UI for user-friendly frontend interaction.
 
 ## Acknowledgements
-Huggingface Transformers
-FastAPI
-scikit-learn
+- Huggingface Transformers
+- FastAPI
+- scikit-learn
 
 ## Contact
-Feel free to connect: LinkedIn
-Swagath Babu
+- Feel free to connect: LinkedIn
+- Swagath Babu

@@ -6,7 +6,7 @@ Deployed the model as a real-time API using FastAPI, applied model optimization 
 
 ---
 
-## 📚 Project Overview
+## Project Overview
 
 - Fine-tuned `bert-base-uncased` model on a synthetic dataset of multi-sentence, realistic email samples.
 - Classified emails into three actionable categories: urgent, non-urgent, needs human intervention.
@@ -16,7 +16,7 @@ Deployed the model as a real-time API using FastAPI, applied model optimization 
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - **Transformer Fine-Tuning**: Customized BERT for domain-specific email classification tasks.
 - **FastAPI Deployment**: Lightweight, scalable RESTful API for live email predictions.

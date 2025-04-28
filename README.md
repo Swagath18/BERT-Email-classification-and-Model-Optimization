@@ -114,6 +114,9 @@ bert_email_classifier/
 - Deploy public demo using HuggingFace Spaces or Render.
 - Add Gradio UI for user-friendly frontend interaction.
 
+## Note
+On the synthetic test set, my model achieved perfect precision, recall, and F1-score. There's no sign of overfitting on the available dataset. However, in a real-world scenario with messier emails and varied user behavior, I expect a slight performance drop, which could be handled with additional fine-tuning, data augmentation, and real-world validation
+
 ## Acknowledgements
 - Huggingface Transformers
 - FastAPI
